@@ -1,5 +1,3 @@
-console.log('Js File Loded')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const mesOne = document.querySelector('#mes1')
