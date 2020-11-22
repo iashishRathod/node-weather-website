@@ -15,7 +15,7 @@ const weather = (longitude,lattitude,callback) =>{
             }
             else {
                 callback(undefined, body.current.weather_descriptions[0] +'. current temprature is ' + body.current.temperature +
-                ' and it feels like ' + body.current.feelslike)
+                ' and it feels like ' + body.current.feelslike +' and Humdity is ' + body.current.humidity ) 
             }
             
         }
